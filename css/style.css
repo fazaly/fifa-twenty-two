@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Common CSS & Utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TOP BANNER START */
+.container{
+    width: 990px;
+    height: 650px;
+    margin: auto;
+    background: #161616;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 130px;
+}
+.top-banner{
+    display: flex;
+    align-items: center;
+}
+.top-title{
+    margin-left: 30px;
+}
+.top-title h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.top-title p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+.top-title button{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 25px;
+    background-color: #13955E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.fa-angle-right{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.top-img img{
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+}
+/* TOP BANNER END */
+
+/* LIVE STREAM SECTION START */
+.live{
+    width: 990px;
+    margin: auto;
+    margin-bottom: 130px;
+}
+.menu{
+    width: 310px;
+    height: 310px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.menu button{
+    width: 252px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 15px;
+}
+.blog{
+    background-color: #13955E;
+    border: none;
+    color: #FFFFFF;
+}
+.live-menu{
+    width: 660px;
+    display: flex;
+}
+.live-stream{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-left: 15px;
+}
+.alive{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.stream img{
+    width: 220px;
+    height: 125px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+.transfer-item{
+    margin-left: 10px;
+}
+.transfer{
+    padding: 5px 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    margin-bottom: 15px;
+}
+.subline{
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 143px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.review{
+    margin-left: 5px;
+}
+/* LIVE STREAM SECTION END */
