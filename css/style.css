@@ -133,8 +133,22 @@ body{
 .review{
     margin-left: 5px;
 }
+.view-all{
+    text-align: center;
+}
+.view-all button{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 12px 29px;
+    border-radius: 5px;
+    background-color: #13955E;
+    border: none;
+    margin-top: 50px;
+}
 /* LIVE STREAM SECTION END */
 
+/* FOOTER SECTION START */
 .footer{
     padding: 50px 50px;
     background: #161616;
@@ -170,4 +184,67 @@ hr{
     margin-left: 30px;
     font-size: 25px;
     color: #FFFFFF;
+}
+.icon i:hover{
+    color: #13955E;
+    transition-duration: 0.3s all ease;
+}
+/* FOOTER SECTION END */
+
+/* =============================
+         MEDIA QUERIES 
+ ===============================*/
+
+ /* MOBILE DEVICES */
+@media only screen and (max-width:576px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .top-banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-title{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .top-title h1{
+        font-size: 35px;
+        margin-top: 28px;
+        margin-left: 0px;
+    }
+    .top-title p{
+        font-size: 16px;
+    }
+    .top-img img{
+        width: 233px;
+        height: 245px;
+    }
+    .live{
+        width: 100%;
+    }
+    .menu{
+        width: 210px;
+        height: 176px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu button{
+        width: 210px;
+        height: 176px;
+        text-align: center;
+        border: 1px solid #E8E8E8;
+        padding: 5px 10px;
+    }
+    .live-menu{
+        flex-direction: column;
+    }
+    .live-stream{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
