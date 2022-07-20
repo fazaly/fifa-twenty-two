@@ -81,9 +81,16 @@ body{
     border-radius: 10px;
     margin: 15px;
 }
+.menu button a{
+    text-decoration: none;
+    color: #161616;
+}
 .blog{
     background-color: #13955E;
     border: none;
+    color: #FFFFFF;
+}
+#bg-color{
     color: #FFFFFF;
 }
 .live-menu{
@@ -101,14 +108,48 @@ body{
     border-radius: 10px;
     margin-bottom: 25px;
 }
+.fixed{
+    width: 220px;
+    height: 150px;
+    margin-bottom: 10px;
+}
 .stream img{
     width: 220px;
     height: 125px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 20px;
 }
+#flag{
+    display: flex;
+    justify-content: center;
+}
+#flag img{
+    width: 90px;
+    height: 50px;
+    border-radius: 0px 0px 0px 0px;
+    margin: 10px 5px;
+}
+#flag p{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #161616;
+}
 .transfer-item{
     margin-left: 10px;
+}
+.schedule h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    text-align: center;
+}
+.schedule p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4D4D4D;
 }
 .transfer{
     padding: 5px 5px;
@@ -198,7 +239,7 @@ hr{
  /* MOBILE DEVICES */
 @media only screen and (max-width:576px) {
     .container{
-        width: 100%;
+        width: 90%;
         height: 100%;
         margin-top: 0px;
         margin-bottom: 20px;
@@ -222,9 +263,6 @@ hr{
     .top-img img{
         width: 233px;
         height: 245px;
-    }
-    .live{
-        width: 100%;
     }
     .menu{
         width: 210px;
