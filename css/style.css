@@ -25,6 +25,40 @@ body{
 .top-title{
     margin-left: 30px;
 }
+.top-title a{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 25px;
+    text-decoration: none;
+    background: #13955E;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+.top-title a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #ff003b;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+}
+.top-title a:hover:before{
+    left: 0;
+    z-index: -1;
+}
+.top-title a span{
+    color: #FFFFFF;
+    transition: .5s ease-in-out;
+    z-index: 1;
+}
+.top-title a:hover span{
+    color: #FFFFFF;
+}
 .top-title h1{
     font-weight: 700;
     font-size: 50px;
@@ -268,9 +302,17 @@ hr{
     .top-title p{
         font-size: 16px;
     }
+    .top-title a{
+        position: static;
+    }
     .top-img img{
-        width: 250px;
-        height: 250px;
+        width: 233px;
+        height: 245px;
+    }
+    .live-menu{
+        width: 550px;
+        margin: 0px 60px;
+        justify-content: center;
     }
     .menu{
         width: 210px;
@@ -319,6 +361,9 @@ html,body {
     padding: 0;
     overflow-x: hidden;
 }
+.top-title a{
+    position: static;
+}
 .live-menu{
     max-width: 990px;
     margin: auto;
@@ -351,7 +396,12 @@ html,body {
 .footer{
     max-width: 100%;
 }
+.footer-menu a{
+    font-size: 13px;
 }
+}
+
+/* DESKTOP DEVICES */
 @media only screen and (min-width:993px) and (max-width:1400px){
 .view-all{
     display: none;
